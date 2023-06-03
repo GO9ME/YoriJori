@@ -3,10 +3,8 @@
 xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css"
-	href="/yorijori/common/css/reset.css" />
 <title>board</title>
-<link rel="stylesheet" href="/yorijori/common/css/board/read.css" />
+<link rel="stylesheet" href="/yorijori/common/css/board/read.css"/>
 </head>
 <body>
 	
@@ -33,16 +31,19 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 			</tr>		
 		</table>
 		
-		<div class="btns">
+		<div class="btns" style="float: right;">
 		
 			<button type="button" class="buttons btn-primary"
-				onclick="location.href='/yorijori/board/write">수정</button>
+				onclick="location.href='/yorijori/board/write"
+				style="background-color: orange">수정</button>
 				
 			<button type="button" class="buttons btn-primary"
-				onclick="location.href='/yorijori/board/list">삭제</button>
+				onclick="location.href='/yorijori/board/list"
+				style="background-color: orange">삭제</button>
 
 			<button type="button" class="buttons btn-primary"
-				onclick="location.href='/yorijori/board/list'">목록</button>	
+				onclick="location.href='/yorijori/board/list'"
+				style="background-color: orange">목록</button>	
 		</div>
 
 	</section>	
