@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class BoardController {
 	@RequestMapping("/list")
 	public String boardList() {
+
 		return "thymeleaf/board/list";
 	}
 	@RequestMapping("/read")
@@ -19,5 +20,6 @@ public class BoardController {
 	public String boardWrite() {
 		return "thymeleaf/board/write";
 	}	
+
 	
 }

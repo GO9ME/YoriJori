@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body{
+.all-margin{
 	margin-left: 50px;
 	margin-right: 50px;
 	font-weight: bolder;
@@ -15,39 +15,40 @@ h2{
 	padding: 0;
 	max-width: none;
 }
-.btn-primary {
+.category .insert {
     color: #6c757d;
     background-color: #ffffff;
     border-color: #d15628;
-    display:block;
     margin-left: auto;
     margin-right: auto;
+    
 }
-label {
+.all-margin label {
 	font-size: 15px;
 	display: block;
+	padding-top: 15px;
 }
-input::placeholder {
+.insert-control::placeholder {
 	font-style: italic;
 	color: #d15628;
 }
 /* 버튼 */
-.btn, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle, .btn-primary.focus, .btn-primary:focus, .btn-primary:hover{
-	background-color: white;
-	color: #d15628;
-	border-color: #d15628;
-	transition: none;
+.insert:not(:disabled):not(.disabled).active, .insert:not(:disabled):not(.disabled):active, .show>.insert.insert-drop, .insert.focus, .insert:focus, .insert:hover, .insert{
+	background-color: white !important;
+	color: #d15628 !important;
+	border-color: #d15628 !important;
+	transition: none !important;
 }
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus,.btn-primary.focus, .btn-primary:focus {
+.insert:not(:disabled):not(.disabled).active:focus, .insert:not(:disabled):not(.disabled):active:focus, .show>.insert.insert-drop:focus,.insert.focus, .insert:focus {
 	box-shadow:0 0 0 0 #fff;
 }
-.btn.focus, .btn:focus{
+.insert.focus, .insert:focus{
 	box-shadow:0 0 0 0 #fff;
 }
-.dropdown-item:active {
-	background-color: #d15628;
+.insert-item:active {
+	background-color: #d15628 !important;
 }
-.dropdown-toggle{
+.insert-drop{
 	position: relative;
 	margin-left: 0;
 	margin-right: 20px;
@@ -55,18 +56,18 @@ input::placeholder {
 	width: 150px;
 	text-align: left;
 }
-.dropdown-toggle::after{
+.insert-drop::after{
 	position: absolute;
 	right: 10px;
 	top:50%;
 }
 .category{
-	
+	display: block;
 }
 .last-button {
 	margin-right: 0;
 }
-.form-control{
+.insert-control{
 	border-color: #d15628;
 	width: 80%;
 }
@@ -74,9 +75,71 @@ input::placeholder {
 	height: calc(3em + 1.5rem + 4px);
 	vertical-align: top;
 }
+.submit-btn{
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+.form-insert label{
+	display: block !important;
+}
+/* 재료 */
+.imp-list{
+	overflow:auto;
+	height: 100px;
+}
+.imp-group{
+	width: 50%;
+}
+.imp{
+	margin-bottom: 5px;
+}
+.selected{
+	background: #d15628 !important;
+	color: white !important;
+}
+/* 재료 테이블 */
+.imp-quantity{
+	width:"100%";
+border: 1px solid #d15628;
+font-weight: bold;	
+}
+.tr{
+border: 1px solid #d15628;
+font-weight: bold;	
+}
+td:nth-child(2){
+	border-right: 2px solid #d15628;
+}
+td{
+	text-align: center;
+}
+td input{
+	width: 100px;
+	border: #d15628;
+	text-align: center;
+	height: 50px;
+}
+.insert-drop{
+	background-color: #d15628;
+	border-color: #d15628;
+}
+/* 요리순서 */
+.cooking-step{
+	color:  #d15628;
+	font-weight: bolder;
+	font-family: 'segoe print';
+	font-style: italic;
+	font-size: 45px;
+	display: inline;
+	padding-right: 100px;
+}
 
-
-
-
-
-
+/* 써머노트 */
+.cooking-num{
+	display: flex;
+	align-items: center;
+}
+.sum{
+	width: 50%;
+}

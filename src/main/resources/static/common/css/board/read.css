@@ -8,6 +8,7 @@ width: 280px; text-align: left;
 .main-section .table tr:nth-child(4) td {
 	height: 300px; 
 }
+
 button.buttons.btn-primary {
     width: 100px;
     background-color: orange;
@@ -15,6 +16,7 @@ button.buttons.btn-primary {
     border-radius: 10px;
     color: white;
 }
+
 .btns {
     float: right;
 }
