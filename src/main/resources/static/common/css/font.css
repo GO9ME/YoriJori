@@ -3,13 +3,15 @@
 /*	
 	커스텀 용 폰트 모음 
 */
-/* 강조하는 용 bold 용 글씨에 적합  */
+/* 힘내라 어쩌구 체 
+강조하는 용 bold 용 글씨에 적합  */
 @import url(https://hangeul.pstatic.net/hangeul_static/css/NanumHimNaeRaNeunMarBoDan.css);
 /*
 font-family: 'NanumHimNaeRaNeunMarBoDan';
 */
 
-/* 둥글둥글하고 큰 글 씨용 */
+/* 범솜체 
+둥글둥글하고 큰 글 씨용 */
 @import url(https://hangeul.pstatic.net/hangeul_static/css/NanumBeomSomCe.css);
 /* 
 font-family: 'NanumBeomSomCe';
