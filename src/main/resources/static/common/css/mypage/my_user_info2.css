@@ -30,3 +30,11 @@
 #temp{
 	color: orange;
 }
+
+.rounded-circle {
+    border-radius: 50%!important;
+    margin-bottom: 20px;
+}
+.row{
+	margin-bottom: 20px;
+}
