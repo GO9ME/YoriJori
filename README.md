@@ -37,6 +37,15 @@ ERD
 
 ![image](https://github.com/sgustjd2/YoriJori/assets/49851554/c270b72e-1c13-425e-987c-1c0ae78a7910)
 
+개발일정
+
+![image](https://github.com/sgustjd2/YoriJori/assets/49851554/71aa4c33-1bec-4ed3-9e0e-fac8130bafaf)
+
+사용기술
+
+![image](https://github.com/sgustjd2/YoriJori/assets/49851554/1be0aa9d-abeb-4166-ac0e-5d61e45a82c0)
+
+
 페이지 소개 자료
 [https://docs.google.com/presentation/d/1OcN6pLcRFmTBzFpZcRaazxSkNo5hf7_HhVdL1u4LG9k/edit?usp=sharing](https://docs.google.com/presentation/d/1GvA5XhQFVsL_Aewuh3lfljsCHiXUz47MfTmk-AXTd38/edit?usp=sharing)
 
